@@ -1,6 +1,5 @@
 require 'fizzbuzz'
 describe 'fizzbuzz' do
-  number = (0..100)
   it 'returns "fizzbuzz" when passed 15' do
     expect(15.fizzbuzz).to eq 'fizzbuzz'
   end
@@ -11,6 +10,6 @@ describe 'fizzbuzz' do
     expect(3.fizzbuzz).to eq 'fizz'
   end
   it 'returns the number if number is not divisible by 3 or 5' do
-    expect(number.fizzbuzz).to eq number
+    expect(2.fizzbuzz).to eq 2
   end
 end

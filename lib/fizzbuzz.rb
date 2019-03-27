@@ -10,6 +10,7 @@
 #   end
 # end
 
-def fizzbuzz(number)
-  number % 15 == 0 ? "fizzbuzz" : number % 5 == 0 ? "buzz" : number % 3 == 0 ? "fizz" : number
+public
+def fizzbuzz
+  self % 15 == 0 ? "fizzbuzz" : self % 5 == 0 ? "buzz" : self % 3 == 0 ? "fizz" : self
 end
